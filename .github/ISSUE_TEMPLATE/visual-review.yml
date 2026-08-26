@@ -37,6 +37,16 @@ body:
       description: Mention the practical reason, not the tool or creator. For example: easier to scan or clearer action.
     validations:
       required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional detail for follow-up
+      description: Name an exact candidate and view, describe what you saw, and say what you would change. Example: Candidate C, mobile view, the navigation uses most of the screen and the text becomes too narrow to read.
+  - type: textarea
+    id: viewing-context
+    attributes:
+      label: Optional viewing context
+      description: For example, phone or desktop screen, low vision, color-vision difference, browser zoom, or dark-room viewing.
   - type: checkboxes
     id: reviewed
     attributes:

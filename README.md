@@ -29,3 +29,11 @@ Send your answers to the teacher by email or through the agreed classroom channe
 4. One problem: Candidate __, __ view: __.
 
 No YAML editing is required. One or two sentences per answer is enough. Participation is voluntary and unpaid.
+
+## Make Feedback Useful
+
+For a detailed review, name the candidate and exact view when reporting a problem. Describe what you saw, explain what blocked you, and mention any useful viewing context such as a phone screen, low vision, or dark-room viewing. Do not guess which tool or person created a candidate.
+
+Example:
+
+> Candidate C, mobile view: the navigation uses most of the screen and the dashboard text becomes too narrow to read.

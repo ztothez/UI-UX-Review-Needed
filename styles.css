@@ -139,6 +139,16 @@ main { padding-block: 40px 72px; }
 }
 .answer-note { grid-column: 2; margin: -4px 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
 
+.detail-guide {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.7fr) minmax(280px, 1.3fr);
+  gap: 14px 48px;
+  padding: 30px 0 10px;
+  border-top: 1px solid var(--line);
+}
+.detail-guide ol { margin: 0; padding-left: 1.25rem; color: var(--muted); line-height: 1.65; }
+.detail-example { grid-column: 2; margin: 0; padding: 14px 16px; background: #e2ecec; color: var(--ink); border-left: 4px solid var(--accent); line-height: 1.55; }
+
 .candidate-section {
   scroll-margin-top: 74px;
   padding-block: 48px 64px;
@@ -231,6 +241,8 @@ footer a { font-weight: 750; }
   .review-steps { grid-template-columns: 1fr; }
   .answer-guide { grid-template-columns: 1fr; gap: 14px; }
   .answer-note { grid-column: auto; }
+  .detail-guide { grid-template-columns: 1fr; gap: 14px; }
+  .detail-example { grid-column: auto; }
   .desktop-capture { grid-column: auto; }
   main { padding-top: 24px; }
   .candidate-section { padding-block: 40px 52px; }
