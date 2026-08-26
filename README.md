@@ -21,7 +21,7 @@ This is a short visual comparison. You do not need to know Azure, design softwar
 
 ## Return A Review
 
-Send your answers to the teacher by email or through the agreed classroom channel:
+Submit your answers through the [GitHub review form](https://github.com/ztothez/UI-UX-Review-Needed/issues/new?template=visual-review.yml), or send them to the teacher by email or through the agreed classroom channel:
 
 1. Easiest to read: Candidate __
 2. Main information is easiest to find in: Candidate __
