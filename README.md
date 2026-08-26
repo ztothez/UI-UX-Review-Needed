@@ -1,35 +1,73 @@
-# Anonymous Azure V2 Review Packet
+Review Guide
 
-Do not attempt to identify candidate origins. Review all five candidates under the assigned order, identical task prompts, fixed viewport set, and common evidence rules.
+This is a disclosed, non-blind expert review. Score only what the retained screenshots establish. Do not infer hidden states or implementation behavior.
 
-## Counterbalanced Orders
+## Score Scale
 
-| Sequence | Candidate order |
-| --- | --- |
-| 1 | A, B, C, D, E |
-| 2 | B, C, D, E, A |
-| 3 | C, D, E, A, B |
-| 4 | D, E, A, B, C |
-| 5 | E, A, B, C, D |
+- `0`: absent, misleading, or unusable
+- `1`: present but materially deficient
+- `2`: functional and understandable
+- `3`: polished and consistently implemented
+- `4`: exceptional and supported by visible evidence
 
-The coordinator assigns sequences. Reviewers must record the actual order in their session file.
+## What To Inspect
 
-## Human-Expert Review
+### Disclosure Consistency
 
-1. Inspect every candidate at mobile, tablet, desktop, and wide viewports.
-2. Inspect the common analysis-result capture.
-3. Execute the declared states when a coordinator provides an isolated running candidate.
-4. Score only disclosure consistency, decision density, visual rhythm, and responsive composition.
-5. Ground every score in an observable location. Do not infer implementation quality from candidate identity.
+Inspect the candidate's `overview-wide` and `analysis-wide` images. Check whether data origin, connection, environment, freshness, and processing origin are visible and consistent before and after analysis. If fallback, history, error, or export behavior is not visible, say that it was not verifiable from the retained screenshots.
 
-## Representative-User Session
+### Decision Density
 
-For every candidate, identify data origin, identify the highest priority, identify the next action, recognize live or fallback processing, and verify export provenance. The facilitator records time, errors, recovery, comprehension, confidence, and exact notes without coaching the answer.
+Inspect `overview-wide` and `analysis-wide`. Check whether metrics and findings support clear decisions, whether evidence and impact are connected, and whether decorative or repeated information competes with the task.
 
-## Evidence Rules
+### Visual Rhythm
 
-- Use one template appropriate to the evidence level.
-- Replace every placeholder and change top-level status from draft to complete only after the contributor reviews the record.
-- Store completed YAML files in completed-sessions.
-- Human-expert and representative-user evidence must be supplied by the named contributor or facilitator. An agent must not complete, sign, or upgrade these records.
-- Missing or unavailable behavior is a valid observed result. Record it rather than filling the gap from source inspection.
+Inspect all five candidate images. Check typography, spacing, alignment, emphasis, grouping, whitespace, and whether the result page belongs to the same visual system as the overview.
+
+### Responsive Composition
+
+Compare `overview-mobile`, `overview-tablet`, `overview-desktop`, and `overview-wide`. Check for clipping, awkward stacking, excessive empty space, tiny text, weak priority, and loss of important information.
+
+## Candidate A
+
+- [Mobile](screenshots/candidate-a-overview-mobile.png)
+- [Tablet](screenshots/candidate-a-overview-tablet.png)
+- [Desktop](screenshots/candidate-a-overview-desktop.png)
+- [Wide](screenshots/candidate-a-overview-wide.png)
+- [Analysis result](screenshots/candidate-a-analysis-wide.png)
+
+## Candidate B
+
+- [Mobile](screenshots/candidate-b-overview-mobile.png)
+- [Tablet](screenshots/candidate-b-overview-tablet.png)
+- [Desktop](screenshots/candidate-b-overview-desktop.png)
+- [Wide](screenshots/candidate-b-overview-wide.png)
+- [Analysis result](screenshots/candidate-b-analysis-wide.png)
+
+## Candidate C
+
+- [Mobile](screenshots/candidate-c-overview-mobile.png)
+- [Tablet](screenshots/candidate-c-overview-tablet.png)
+- [Desktop](screenshots/candidate-c-overview-desktop.png)
+- [Wide](screenshots/candidate-c-overview-wide.png)
+- [Analysis result](screenshots/candidate-c-analysis-wide.png)
+
+## Candidate D
+
+- [Mobile](screenshots/candidate-d-overview-mobile.png)
+- [Tablet](screenshots/candidate-d-overview-tablet.png)
+- [Desktop](screenshots/candidate-d-overview-desktop.png)
+- [Wide](screenshots/candidate-d-overview-wide.png)
+- [Analysis result](screenshots/candidate-d-analysis-wide.png)
+
+## Candidate E
+
+- [Mobile](screenshots/candidate-e-overview-mobile.png)
+- [Tablet](screenshots/candidate-e-overview-tablet.png)
+- [Desktop](screenshots/candidate-e-overview-desktop.png)
+- [Wide](screenshots/candidate-e-overview-wide.png)
+- [Analysis result](screenshots/candidate-e-analysis-wide.png)
+
+## Recording The Review
+
+Enter one `0` to `4` score and a concrete rationale for every criterion under every candidate in `ztothez-human-expert-session.draft.yaml`. Name the viewport or visible region supporting the score. Keep limitations explicit when a required state is not represented.
