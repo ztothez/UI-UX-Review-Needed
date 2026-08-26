@@ -1,75 +1,33 @@
-# Review Guide
+# Azure Dashboard Visual Review
 
-The repository root contains a static gallery that displays all 25 anonymous comparison screenshots together. GitHub Pages deploys `index.html` automatically from `main`.
+## Question
 
-This is a disclosed, non-blind expert review. Score only what the retained screenshots establish. Do not infer hidden states or implementation behavior.
+Which of the five candidates is visually easiest to read and use?
 
-## Score Scale
+## What You Are Looking At
 
-- `0`: absent, misleading, or unusable
-- `1`: present but materially deficient
-- `2`: functional and understandable
-- `3`: polished and consistently implemented
-- `4`: exceptional and supported by visible evidence
+- There are **five candidates**, labeled A to E.
+- Each candidate is one dashboard design.
+- Each candidate has five screenshots: mobile, tablet, desktop, wide desktop, and analysis result.
+- Candidate identities are withheld.
 
-## What To Inspect
+This is a screenshot-only visual comparison. It is not a full usability test and does not evaluate interactions that are absent from the screenshots.
 
-### Disclosure Consistency
+## What To Compare
 
-Inspect the candidate's `overview-wide` and `analysis-wide` images. Check whether data origin, connection, environment, freshness, and processing origin are visible and consistent before and after analysis. If fallback, history, error, or export behavior is not visible, say that it was not verifiable from the retained screenshots.
+- Readability and contrast
+- Visual hierarchy
+- Spacing and alignment
+- Information density
+- Responsive layout
 
-### Decision Density
+## Return A Review
 
-Inspect `overview-wide` and `analysis-wide`. Check whether metrics and findings support clear decisions, whether evidence and impact are connected, and whether decorative or repeated information competes with the task.
+Open a [Visual review issue](https://github.com/ztothez/ReturnReview/issues/new?template=visual-review.yml) and answer:
 
-### Visual Rhythm
+1. Which candidate is visually strongest?
+2. Why?
+3. Which candidate is easiest to read?
+4. What visual problems did you notice?
 
-Inspect all five candidate images. Check typography, spacing, alignment, emphasis, grouping, whitespace, and whether the result page belongs to the same visual system as the overview.
-
-### Responsive Composition
-
-Compare `overview-mobile`, `overview-tablet`, `overview-desktop`, and `overview-wide`. Check for clipping, awkward stacking, excessive empty space, tiny text, weak priority, and loss of important information.
-
-## Candidate A
-
-- [Mobile](assets/screenshots/candidate-a-overview-mobile.png)
-- [Tablet](assets/screenshots/candidate-a-overview-tablet.png)
-- [Desktop](assets/screenshots/candidate-a-overview-desktop.png)
-- [Wide](assets/screenshots/candidate-a-overview-wide.png)
-- [Analysis result](assets/screenshots/candidate-a-analysis-wide.png)
-
-## Candidate B
-
-- [Mobile](assets/screenshots/candidate-b-overview-mobile.png)
-- [Tablet](assets/screenshots/candidate-b-overview-tablet.png)
-- [Desktop](assets/screenshots/candidate-b-overview-desktop.png)
-- [Wide](assets/screenshots/candidate-b-overview-wide.png)
-- [Analysis result](assets/screenshots/candidate-b-analysis-wide.png)
-
-## Candidate C
-
-- [Mobile](assets/screenshots/candidate-c-overview-mobile.png)
-- [Tablet](assets/screenshots/candidate-c-overview-tablet.png)
-- [Desktop](assets/screenshots/candidate-c-overview-desktop.png)
-- [Wide](assets/screenshots/candidate-c-overview-wide.png)
-- [Analysis result](assets/screenshots/candidate-c-analysis-wide.png)
-
-## Candidate D
-
-- [Mobile](assets/screenshots/candidate-d-overview-mobile.png)
-- [Tablet](assets/screenshots/candidate-d-overview-tablet.png)
-- [Desktop](assets/screenshots/candidate-d-overview-desktop.png)
-- [Wide](assets/screenshots/candidate-d-overview-wide.png)
-- [Analysis result](assets/screenshots/candidate-d-analysis-wide.png)
-
-## Candidate E
-
-- [Mobile](assets/screenshots/candidate-e-overview-mobile.png)
-- [Tablet](assets/screenshots/candidate-e-overview-tablet.png)
-- [Desktop](assets/screenshots/candidate-e-overview-desktop.png)
-- [Wide](assets/screenshots/candidate-e-overview-wide.png)
-- [Analysis result](assets/screenshots/candidate-e-analysis-wide.png)
-
-## Recording The Review
-
-Enter one `0` to `4` score and a concrete rationale for every criterion under every candidate in `human-expert-session.template.yaml`. Name the viewport or visible region supporting the score. Keep limitations explicit when a required state is not represented.
+No YAML editing is required. Participation is voluntary and unpaid.

@@ -1,0 +1,44 @@
+name: Visual review
+description: Choose the strongest of five anonymous dashboard candidates.
+title: "Visual review: "
+body:
+  - type: dropdown
+    id: strongest
+    attributes:
+      label: Which candidate is visually strongest?
+      options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E]
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why?
+      description: Mention readability, contrast, hierarchy, spacing, or responsive layout.
+    validations:
+      required: true
+  - type: dropdown
+    id: easiest-to-read
+    attributes:
+      label: Which candidate is easiest to read?
+      options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E, No meaningful difference]
+    validations:
+      required: true
+  - type: textarea
+    id: problems
+    attributes:
+      label: What visual problems did you notice?
+      description: Name the candidate and screenshot when possible. It is valid to report no problem.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant viewing context
+      description: Optional. For example, low vision, color-vision difference, screen size, or display conditions.
+  - type: checkboxes
+    id: reviewed
+    attributes:
+      label: Review scope
+      options:
+        - label: I looked through all five candidate sections.
+          required: true
