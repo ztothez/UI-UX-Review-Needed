@@ -1,4 +1,6 @@
-Review Guide
+# Review Guide
+
+The repository root contains a static gallery that displays all 25 anonymous comparison screenshots together. GitHub Pages deploys `index.html` automatically from `main`.
 
 This is a disclosed, non-blind expert review. Score only what the retained screenshots establish. Do not infer hidden states or implementation behavior.
 
@@ -30,44 +32,44 @@ Compare `overview-mobile`, `overview-tablet`, `overview-desktop`, and `overview-
 
 ## Candidate A
 
-- [Mobile](screenshots/candidate-a-overview-mobile.png)
-- [Tablet](screenshots/candidate-a-overview-tablet.png)
-- [Desktop](screenshots/candidate-a-overview-desktop.png)
-- [Wide](screenshots/candidate-a-overview-wide.png)
-- [Analysis result](screenshots/candidate-a-analysis-wide.png)
+- [Mobile](assets/screenshots/candidate-a-overview-mobile.png)
+- [Tablet](assets/screenshots/candidate-a-overview-tablet.png)
+- [Desktop](assets/screenshots/candidate-a-overview-desktop.png)
+- [Wide](assets/screenshots/candidate-a-overview-wide.png)
+- [Analysis result](assets/screenshots/candidate-a-analysis-wide.png)
 
 ## Candidate B
 
-- [Mobile](screenshots/candidate-b-overview-mobile.png)
-- [Tablet](screenshots/candidate-b-overview-tablet.png)
-- [Desktop](screenshots/candidate-b-overview-desktop.png)
-- [Wide](screenshots/candidate-b-overview-wide.png)
-- [Analysis result](screenshots/candidate-b-analysis-wide.png)
+- [Mobile](assets/screenshots/candidate-b-overview-mobile.png)
+- [Tablet](assets/screenshots/candidate-b-overview-tablet.png)
+- [Desktop](assets/screenshots/candidate-b-overview-desktop.png)
+- [Wide](assets/screenshots/candidate-b-overview-wide.png)
+- [Analysis result](assets/screenshots/candidate-b-analysis-wide.png)
 
 ## Candidate C
 
-- [Mobile](screenshots/candidate-c-overview-mobile.png)
-- [Tablet](screenshots/candidate-c-overview-tablet.png)
-- [Desktop](screenshots/candidate-c-overview-desktop.png)
-- [Wide](screenshots/candidate-c-overview-wide.png)
-- [Analysis result](screenshots/candidate-c-analysis-wide.png)
+- [Mobile](assets/screenshots/candidate-c-overview-mobile.png)
+- [Tablet](assets/screenshots/candidate-c-overview-tablet.png)
+- [Desktop](assets/screenshots/candidate-c-overview-desktop.png)
+- [Wide](assets/screenshots/candidate-c-overview-wide.png)
+- [Analysis result](assets/screenshots/candidate-c-analysis-wide.png)
 
 ## Candidate D
 
-- [Mobile](screenshots/candidate-d-overview-mobile.png)
-- [Tablet](screenshots/candidate-d-overview-tablet.png)
-- [Desktop](screenshots/candidate-d-overview-desktop.png)
-- [Wide](screenshots/candidate-d-overview-wide.png)
-- [Analysis result](screenshots/candidate-d-analysis-wide.png)
+- [Mobile](assets/screenshots/candidate-d-overview-mobile.png)
+- [Tablet](assets/screenshots/candidate-d-overview-tablet.png)
+- [Desktop](assets/screenshots/candidate-d-overview-desktop.png)
+- [Wide](assets/screenshots/candidate-d-overview-wide.png)
+- [Analysis result](assets/screenshots/candidate-d-analysis-wide.png)
 
 ## Candidate E
 
-- [Mobile](screenshots/candidate-e-overview-mobile.png)
-- [Tablet](screenshots/candidate-e-overview-tablet.png)
-- [Desktop](screenshots/candidate-e-overview-desktop.png)
-- [Wide](screenshots/candidate-e-overview-wide.png)
-- [Analysis result](screenshots/candidate-e-analysis-wide.png)
+- [Mobile](assets/screenshots/candidate-e-overview-mobile.png)
+- [Tablet](assets/screenshots/candidate-e-overview-tablet.png)
+- [Desktop](assets/screenshots/candidate-e-overview-desktop.png)
+- [Wide](assets/screenshots/candidate-e-overview-wide.png)
+- [Analysis result](assets/screenshots/candidate-e-analysis-wide.png)
 
 ## Recording The Review
 
-Enter one `0` to `4` score and a concrete rationale for every criterion under every candidate in `ztothez-human-expert-session.draft.yaml`. Name the viewport or visible region supporting the score. Keep limitations explicit when a required state is not represented.
+Enter one `0` to `4` score and a concrete rationale for every criterion under every candidate in `human-expert-session.template.yaml`. Name the viewport or visible region supporting the score. Keep limitations explicit when a required state is not represented.
