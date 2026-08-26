@@ -2,30 +2,29 @@
 
 ## Question
 
-Which of the five candidates is visually easiest to read and use?
+Which of the five candidates looks best to you?
 
 ## What You Are Looking At
 
 - There are **five candidates**, labeled A to E.
-- Each candidate is one dashboard design.
-- Each candidate has five screenshots: mobile, tablet, desktop, wide desktop, and analysis result.
+- Each candidate has five pictures of the same dashboard: mobile, tablet, desktop, wide desktop, and analysis result.
 - Candidate identities are withheld.
 
-This is a screenshot-only visual comparison. It is not a full usability test and does not evaluate interactions that are absent from the screenshots.
+This is a simple visual comparison. Click any picture to see it full size.
 
-## What To Compare
+## What To Notice
 
 - Readability and contrast
 - Visual hierarchy
 - Spacing and alignment
-- Information density
-- Responsive layout
+- Whether you can read it easily
+- Whether the layout feels clear
 
 ## Return A Review
 
 Open a [Visual review issue](https://github.com/ztothez/ReturnReview/issues/new?template=visual-review.yml) and answer:
 
-1. Which candidate is visually strongest?
+1. Which candidate looks best?
 2. Why?
 3. Which candidate is easiest to read?
 4. What visual problems did you notice?
