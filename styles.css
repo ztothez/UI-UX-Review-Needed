@@ -55,6 +55,7 @@ footer {
 h1, h2, p { letter-spacing: 0; }
 h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.05; }
 h2 { margin: 0; font-size: 1.65rem; line-height: 1.15; }
+.header-subtitle { margin: 12px 0 0; color: #c4d2d6; font-size: 1rem; line-height: 1.5; }
 
 .capture-summary {
   flex: 0 0 auto;
@@ -108,7 +109,9 @@ main { padding-block: 40px 72px; }
   border-bottom: 1px solid var(--line);
 }
 
-.review-boundary > p { margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.65; }
+.boundary-copy { color: var(--muted); font-size: 1rem; line-height: 1.65; }
+.boundary-copy p { margin: 0; }
+.boundary-copy p + p { margin-top: 12px; }
 
 .review-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) auto; gap: 1px; align-items: stretch; margin-top: 24px; overflow: hidden; background: var(--line); border: 1px solid var(--line); border-radius: 6px; }
 .review-steps > div { min-height: 100px; display: flex; align-items: flex-start; gap: 12px; padding: 20px; background: var(--surface); }
@@ -116,6 +119,25 @@ main { padding-block: 40px 72px; }
 .review-steps p { margin: 2px 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
 .review-cta { min-width: 180px; display: grid; place-items: center; padding: 20px; background: var(--accent); color: #ffffff; font-weight: 800; text-align: center; text-decoration: none; }
 .review-cta:hover { background: var(--accent-dark); }
+
+.answer-guide {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.7fr) minmax(280px, 1.3fr);
+  gap: 18px 48px;
+  align-items: start;
+  padding: 28px 0 8px;
+}
+.answer-guide pre {
+  margin: 0;
+  padding: 18px;
+  overflow-x: auto;
+  background: var(--ink);
+  color: #ffffff;
+  border-radius: 4px;
+  font: 0.9rem/1.65 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+}
+.answer-note { grid-column: 2; margin: -4px 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
 
 .candidate-section {
   scroll-margin-top: 74px;
@@ -207,6 +229,8 @@ footer a { font-weight: 750; }
   .primary-grid,
   .responsive-grid { grid-template-columns: 1fr; }
   .review-steps { grid-template-columns: 1fr; }
+  .answer-guide { grid-template-columns: 1fr; gap: 14px; }
+  .answer-note { grid-column: auto; }
   .desktop-capture { grid-column: auto; }
   main { padding-top: 24px; }
   .candidate-section { padding-block: 40px 52px; }

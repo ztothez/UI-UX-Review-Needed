@@ -12,8 +12,9 @@
     <header class="site-header">
       <div class="header-inner">
         <div>
-          <p class="eyebrow">Simple visual review</p>
-          <h1>Which dashboard looks best?</h1>
+          <p class="eyebrow">Short visual review</p>
+          <h1>Which dashboard is clearest?</h1>
+          <p class="header-subtitle">Help compare five anonymous dashboard designs.</p>
         </div>
         <div class="capture-summary" aria-label="Capture summary">
           <strong>5 candidates</strong>
@@ -36,16 +37,32 @@
       <section class="review-boundary" aria-labelledby="boundary-title">
         <div>
           <p class="eyebrow">Your task</p>
-          <h2 id="boundary-title">Pick one candidate and say why.</h2>
+          <h2 id="boundary-title">Look at the pictures and answer four questions.</h2>
         </div>
-        <p>There are five candidates. Each candidate has five pictures of the same dashboard: mobile, tablet, desktop, wide desktop, and analysis. Click a picture to see it full size.</p>
+        <div class="boundary-copy">
+          <p>There are five anonymous candidates. Each has the same five views: mobile, tablet, desktop, wide desktop, and an analysis result.</p>
+          <p>You do not need to know Azure, design software, or YAML. Review what you can see. There are no right answers.</p>
+        </div>
       </section>
 
       <section class="review-steps" aria-label="Review steps">
-        <div><strong>1</strong><p>Look at all five candidates.</p></div>
-        <div><strong>2</strong><p>Choose the one you like most.</p></div>
-        <div><strong>3</strong><p>Say what made it better for you.</p></div>
-        <a class="review-cta" href="https://github.com/ztothez/ReturnReview/issues/new?template=visual-review.yml">Send your answer</a>
+        <div><strong>1</strong><p>Which candidate is easiest to read?</p></div>
+        <div><strong>2</strong><p>Which candidate makes the main information easiest to find?</p></div>
+        <div><strong>3</strong><p>Which candidate would you choose to use, and why?</p></div>
+        <div><strong>4</strong><p>What is one problem you noticed? Name the candidate and view.</p></div>
+        <div class="review-cta">Return answers to your teacher</div>
+      </section>
+
+      <section class="answer-guide" aria-labelledby="answer-title">
+        <div>
+          <p class="eyebrow">Reply format</p>
+          <h2 id="answer-title">Short answers are enough.</h2>
+        </div>
+        <pre>1. E
+2. B
+3. E, because I can read the page and see what to do next.
+4. Candidate C, mobile view: the content is too narrow.</pre>
+        <p class="answer-note">You can use this format in the GitHub form. One or two sentences per answer is enough.</p>
       </section>
 
       <section class="candidate-section" id="candidate-a" aria-labelledby="candidate-a-title">
@@ -131,7 +148,7 @@
 
     <footer>
       <p>Five candidates · Choose one · Say why</p>
-      <a href="https://github.com/ztothez/ReturnReview/issues/new?template=visual-review.yml">Send your answer</a>
+      <span>Return answers by email or the agreed classroom channel.</span>
     </footer>
   </body>
 </html>

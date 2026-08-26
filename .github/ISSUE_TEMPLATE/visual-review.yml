@@ -1,40 +1,42 @@
 name: Visual review
-description: Choose the strongest of five anonymous dashboard candidates.
+description: Answer four short questions about five anonymous dashboard candidates.
 title: "Visual review: "
 body:
   - type: dropdown
     id: strongest
     attributes:
-      label: Which candidate is visually strongest?
+      label: Which candidate is easiest to read?
       options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E]
     validations:
       required: true
   - type: textarea
     id: reason
     attributes:
-      label: Why?
-      description: Mention readability, contrast, hierarchy, spacing, or responsive layout.
+      label: What made it easiest to read?
+      description: Mention contrast, text size, spacing, or layout. One sentence is enough.
     validations:
       required: true
   - type: dropdown
-    id: easiest-to-read
+    id: information-find
     attributes:
-      label: Which candidate is easiest to read?
+      label: Which candidate makes the main information easiest to find?
       options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E, No meaningful difference]
     validations:
       required: true
   - type: textarea
     id: problems
     attributes:
-      label: What visual problems did you notice?
-      description: Name the candidate and screenshot when possible. It is valid to report no problem.
+      label: What is one problem you noticed?
+      description: Name the candidate and view, for example: Candidate C, mobile view, content is too narrow.
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Relevant viewing context
-      description: Optional. For example, low vision, color-vision difference, screen size, or display conditions.
+      label: Why would you choose your strongest candidate?
+      description: Mention the practical reason, not the tool or creator. For example: easier to scan or clearer action.
+    validations:
+      required: true
   - type: checkboxes
     id: reviewed
     attributes:
