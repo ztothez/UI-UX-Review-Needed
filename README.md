@@ -7,8 +7,7 @@ Which of the five candidates is clearest to use?
 ## What You Are Looking At
 
 - There are **five candidates**, labeled A to E.
-- Candidates have mobile, tablet, desktop, and wide desktop overview pictures. Most also have a wide analysis result.
-- Candidate C has no valid analysis-result capture because its analysis journey failed; this is recorded as unavailable.
+- Candidates have mobile, tablet, desktop, and wide desktop overview pictures plus a wide analysis result.
 - Candidate identities are withheld.
 
 This is a short visual comparison. You do not need to know Azure, design software, or YAML. Click any picture to see it full size.
