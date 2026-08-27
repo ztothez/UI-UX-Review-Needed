@@ -209,6 +209,27 @@ figure img {
   display: block;
 }
 
+.unavailable-capture {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  background: #f3f4f6;
+  border: 2px dashed #9ca3af;
+}
+
+.unavailable-capture a {
+  display: grid;
+  gap: .75rem;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.unavailable-capture a span {
+  color: #4b5563;
+}
+
 figure a:hover img { opacity: 0.92; }
 figcaption { min-height: 60px; display: flex; justify-content: space-between; gap: 12px; padding: 13px 15px; }
 figcaption strong { font-size: 0.9rem; }
