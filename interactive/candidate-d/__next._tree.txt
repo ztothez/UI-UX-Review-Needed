@@ -1,2 +1,2 @@
-:HL["/UI-UX-Review-Needed/interactive/candidate-d/_next/static/css/60cbeb3beaf5ca55.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"uJtniV1OWPZdn-3flEWF3"}
+:HL["/UI-UX-Review-Needed/interactive/candidate-d/_next/static/css/1f882bffe174efe8.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"kE62xisJ7NYSd-6zc2_jN"}
