@@ -1,25 +1,25 @@
 name: Visual review
-description: Answer four short questions about five anonymous dashboard candidates.
+description: Answer four short task-based questions about five anonymous dashboard candidates.
 title: "Visual review: "
 body:
   - type: dropdown
     id: strongest
     attributes:
-      label: Which candidate is easiest to read?
+      label: Which candidate makes the current situation easiest to understand?
       options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E]
     validations:
       required: true
   - type: textarea
     id: reason
     attributes:
-      label: What made it easiest to read?
-      description: Mention contrast, text size, spacing, or layout. One sentence is enough.
+      label: What made the current situation easy to understand?
+      description: Mention the first thing you noticed, such as status, risk, cost, or next action. One sentence is enough.
     validations:
       required: true
   - type: dropdown
     id: information-find
     attributes:
-      label: Which candidate makes the main information easiest to find?
+      label: Which candidate lets you find the main cost, risk, or next action fastest?
       options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E, No meaningful difference]
     validations:
       required: true
@@ -27,14 +27,14 @@ body:
     id: problems
     attributes:
       label: What is one problem you noticed?
-      description: Name the candidate and view, for example: Candidate C, mobile view, content is too narrow.
+      description: Name the candidate and view, then say what it made harder. Example: Candidate C, mobile view, content is too narrow to scan.
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Why would you choose your strongest candidate?
-      description: Mention the practical reason, not the tool or creator. For example: easier to scan or clearer action.
+      label: Which candidate would you choose for five minutes of work, and why?
+      description: Mention the practical reason, not the tool or creator. For example: easier to scan or clearer next action.
     validations:
       required: true
   - type: textarea
