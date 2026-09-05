@@ -1,5 +1,5 @@
 name: Visual review
-description: Answer four short task-based questions about five anonymous dashboard candidates.
+  description: Answer six short usability questions about five anonymous dashboard candidates.
 title: "Visual review: "
 body:
   - type: dropdown
@@ -23,6 +23,21 @@ body:
       options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E, No meaningful difference]
     validations:
       required: true
+  - type: dropdown
+    id: task-support
+    attributes:
+      label: Which candidate best supports this task?
+      description: Find the most urgent issue and the recommended next action. Use the interactive preview if you prefer.
+      options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E, No meaningful difference]
+    validations:
+      required: true
+  - type: textarea
+    id: task-reason
+    attributes:
+      label: What helped you complete that task?
+      description: Mention where you found the issue or next action. One sentence is enough.
+    validations:
+      required: true
   - type: textarea
     id: problems
     attributes:
@@ -33,8 +48,15 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: Which candidate would you choose to use, and why?
+      label: Which candidate would you choose for real work, and why?
       description: Mention the practical reason, not the tool or creator. For example: easier to scan, clearer next action, or less visual clutter.
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: How confident are you that you understood the dashboard?
+      options: ["1 - Very unsure", "2", "3 - Neutral", "4", "5 - Very confident"]
     validations:
       required: true
   - type: textarea

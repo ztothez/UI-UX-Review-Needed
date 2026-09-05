@@ -17,23 +17,27 @@ The interactive review pages are local demo builds, not live Azure connections. 
 
 ## Review Procedure
 
-Look at the wide overview for all five candidates before choosing a favorite. Open the interactive preview for each candidate and inspect one additional view. Check a narrow or mobile view when available. Do not try to identify which tool created a candidate; review only what you can see and use.
+Look at the wide overview for all five candidates before choosing a favorite. Open the interactive preview for each candidate and inspect one additional view. You may play around with the real interactive UI controls instead of relying only on screenshots. Check a narrow or mobile view when available. Do not try to identify which tool created a candidate; review only what you can see and use.
 
 ## Questions
 
-1. Which candidate is easiest to read?
-2. Which candidate makes the main information easiest to find?
-3. Which candidate would you choose to use, and why?
-4. What is one problem you noticed? Name the candidate and view.
+1. Which candidate is easiest to read, and what helped or hindered readability?
+2. Which candidate makes the main information easiest to find, and what did you look for first?
+3. Task: find the most urgent issue and recommended next action. Which candidate supports this task best?
+4. Which candidate would you choose for real work, and why?
+5. What is one usability problem? Name the candidate and view.
+6. How confident are you that you understood the dashboard? Rate 1–5.
 
 ## Return A Review
 
 Submit your answers through the [GitHub review form](https://github.com/ztothez/UI-UX-Review-Needed/issues/new?template=visual-review.yml), or send them to the teacher by email or through the agreed classroom channel:
 
-1. Easiest to read: Candidate __, because __.
-2. Main information easiest to find: Candidate __, because __.
-3. I would choose Candidate __, because __.
-4. Problem: Candidate __, __ view. __ made __ harder.
+1. Easiest to read: Candidate __. Readability was helped/hindered by __.
+2. Main information easiest to find: Candidate __. I first looked for __.
+3. Urgent issue and next action task: Candidate __, because __.
+4. I would choose Candidate __ for real work, because __.
+5. Problem: Candidate __, __ view. __ made __ harder.
+6. Confidence: __/5.
 
 No YAML editing is required. One short sentence per answer is enough. Do not enter real Azure information.
 
