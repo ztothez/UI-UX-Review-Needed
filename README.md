@@ -15,21 +15,25 @@ This is an independent personal design-engineering project by Roosa. It is not a
 
 The interactive review pages are local demo builds, not live Azure connections. They use fixed or simulated data and do not process real cloud data. A control that changes state is part of the prototype demonstration, not evidence of a real Azure operation.
 
-## What To Notice
+## Review Procedure
 
-1. At a glance, which candidate makes the current situation easiest to understand?
-2. Which candidate lets you find the main cost, risk, or next action fastest?
-3. Which candidate would you choose for five minutes of work, and why?
-4. What is one problem? Name the candidate and view, then say what it made harder.
+Look at the wide overview for all five candidates before choosing a favorite. Open the interactive preview for each candidate and inspect one additional view. Check a narrow or mobile view when available. Do not try to identify which tool created a candidate; review only what you can see and use.
+
+## Questions
+
+1. Which candidate is easiest to read?
+2. Which candidate makes the main information easiest to find?
+3. Which candidate would you choose to use, and why?
+4. What is one problem you noticed? Name the candidate and view.
 
 ## Return A Review
 
 Submit your answers through the [GitHub review form](https://github.com/ztothez/UI-UX-Review-Needed/issues/new?template=visual-review.yml), or send them to the teacher by email or through the agreed classroom channel:
 
-1. Candidate __. I understood the current situation fastest because __.
-2. Candidate __. I found the main cost, risk, or next action fastest because __.
-3. Candidate __, because __.
-4. Candidate __, __ view: __ made __ harder.
+1. Easiest to read: Candidate __, because __.
+2. Main information easiest to find: Candidate __, because __.
+3. I would choose Candidate __, because __.
+4. Problem: Candidate __, __ view. __ made __ harder.
 
 No YAML editing is required. One short sentence per answer is enough. Do not enter real Azure information.
 

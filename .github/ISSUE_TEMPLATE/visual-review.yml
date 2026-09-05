@@ -5,7 +5,7 @@ body:
   - type: dropdown
     id: strongest
     attributes:
-      label: Which candidate makes the current situation easiest to understand?
+      label: Which candidate is easiest to read?
       options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E]
     validations:
       required: true
@@ -13,13 +13,13 @@ body:
     id: reason
     attributes:
       label: What made the current situation easy to understand?
-      description: Mention the first thing you noticed, such as status, risk, cost, or next action. One sentence is enough.
+      description: Mention what helped you read it, such as contrast, text size, spacing, or clear grouping. One sentence is enough.
     validations:
       required: true
   - type: dropdown
     id: information-find
     attributes:
-      label: Which candidate lets you find the main cost, risk, or next action fastest?
+      label: Which candidate makes the main information easiest to find?
       options: [Candidate A, Candidate B, Candidate C, Candidate D, Candidate E, No meaningful difference]
     validations:
       required: true
@@ -33,8 +33,8 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: Which candidate would you choose for five minutes of work, and why?
-      description: Mention the practical reason, not the tool or creator. For example: easier to scan or clearer next action.
+      label: Which candidate would you choose to use, and why?
+      description: Mention the practical reason, not the tool or creator. For example: easier to scan, clearer next action, or less visual clutter.
     validations:
       required: true
   - type: textarea
