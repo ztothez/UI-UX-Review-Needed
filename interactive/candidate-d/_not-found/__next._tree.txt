@@ -1,0 +1,2 @@
+:HL["/UI-UX-Review-Needed/interactive/candidate-d/_next/static/css/5c99184387bca5f5.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"riRNRpVUOAPqO8YA8Kevh"}
