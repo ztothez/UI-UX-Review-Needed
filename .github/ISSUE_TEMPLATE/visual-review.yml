@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: reason
     attributes:
-      label: What made the current situation easy to understand?
+      label: What made the candidate easy to read?
       description: Mention what helped you read it, such as contrast, text size, spacing, or clear grouping. One sentence is enough.
     validations:
       required: true
