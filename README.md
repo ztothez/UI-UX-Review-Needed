@@ -9,9 +9,11 @@ Which of the five anonymous dashboard prototypes best supports a quick, clear de
 - There are **five candidates**, labeled A to E.
 - Candidates have mobile, tablet, desktop, and wide desktop overview pictures plus a wide analysis result.
 - Candidate identities are withheld.
-- The page includes static captures for everyone and interactive previews only where the build can run safely on GitHub Pages.
+- The page includes static captures for everyone and a public interactive review preview for every candidate. These previews switch the captured overview, analysis, and responsive views without requiring a server.
 
 This is an independent personal design-engineering project by Roosa. It is not an official Azure product and is not a thesis unless separately stated. It does not request credentials or personal data. You do not need to know Azure, design software, or YAML. Participation is voluntary and unpaid.
+
+The interactive review pages are deterministic evidence viewers, not live Azure connections. They do not claim to reproduce server-backed behavior or process real cloud data.
 
 ## What To Notice
 

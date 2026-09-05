@@ -1,0 +1,22 @@
+:root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #172126; background: #eef2f3; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 280px; }
+a { color: #055d60; }
+.preview-header { padding: 24px clamp(18px, 4vw, 56px); background: #13242b; color: #fff; }
+.preview-header p { margin: 0 0 6px; color: #8ce4e0; font-size: .75rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.preview-header h1 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.8rem); line-height: 1.1; }
+.preview-header span { display: block; margin-top: 8px; color: #c4d2d6; }
+.preview-main { width: min(100% - 32px, 1180px); margin: 0 auto; padding: 24px 0 56px; }
+.preview-toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 16px; }
+.preview-toolbar button, .back-link { min-height: 44px; padding: 0 14px; border: 1px solid #9eb0b5; border-radius: 4px; background: #fff; color: #172126; font: inherit; font-weight: 750; cursor: pointer; }
+.preview-toolbar button[aria-pressed="true"] { border-color: #087f83; background: #087f83; color: #fff; }
+.back-link { display: inline-flex; align-items: center; text-decoration: none; }
+.preview-note { margin: 0 0 16px; padding: 12px 14px; border-left: 4px solid #087f83; background: #e2ecec; line-height: 1.5; }
+.preview-frame { min-height: 520px; display: grid; place-items: center; padding: 16px; overflow: auto; background: #dfe6e8; border: 1px solid #b9c6ca; border-radius: 6px; }
+.preview-frame img { display: block; width: auto; max-width: 100%; height: auto; max-height: 760px; object-fit: contain; background: #fff; box-shadow: 0 2px 14px rgb(18 36 43 / 14%); }
+.preview-frame[data-viewport="mobile"] img { width: min(375px, 100%); }
+.preview-frame[data-viewport="tablet"] img { width: min(768px, 100%); }
+.preview-frame[data-viewport="desktop"] img { width: min(1024px, 100%); }
+.preview-frame[data-viewport="wide"] img { width: min(1440px, 100%); }
+.preview-footer { display: flex; justify-content: space-between; gap: 16px; margin-top: 16px; color: #59686f; font-size: .9rem; }
+@media (max-width: 620px) { .preview-main { width: min(100% - 20px, 1180px); padding-top: 16px; } .preview-frame { min-height: 360px; padding: 8px; } .preview-footer { align-items: flex-start; flex-direction: column; } }
