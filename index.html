@@ -7,6 +7,7 @@
     <meta name="description" content="Visual comparison of five anonymous Azure dashboard candidates.">
     <title>Azure Dashboard Visual Review</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -58,10 +59,13 @@
           <p class="eyebrow">Reply format</p>
           <h2 id="answer-title">Short answers are enough.</h2>
         </div>
-        <pre>1. E
+        <div class="template-wrapper">
+          <button id="copy-btn" class="copy-btn" aria-label="Copy template text">Copy</button>
+          <pre id="template-text">1. E
 2. B
 3. E, because I can read the page and see what to do next.
 4. Candidate C, mobile view: the content is too narrow.</pre>
+        </div>
         <p class="answer-note">You can use this format in the GitHub form. One or two sentences per answer is enough.</p>
       </section>
 
@@ -164,5 +168,11 @@
       <p>Five candidates · Choose one · Say why</p>
       <a href="https://github.com/ztothez/UI-UX-Review-Needed/issues/new?template=visual-review.yml">Open the GitHub review form</a>
     </footer>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lightbox-close" class="lightbox-close" aria-label="Close image">&times;</button>
+      <img id="lightbox-img" src="" alt="Full size view">
+    </div>
   </body>
 </html>
